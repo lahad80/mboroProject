@@ -40,6 +40,8 @@ public class SubjectDaoImpl implements SubjectDAO {
 		try{
 			tx = session.beginTransaction();
 			subject = (Subject) session.get(Subject.class, id);
+			Hibernate.initialize(subject.getRelatedComments());
+			Hibernate.initialize(subject.getUser());
 			tx.commit();
 		}catch(HibernateException he){
 			he.printStackTrace();
