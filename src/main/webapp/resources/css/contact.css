@@ -1,0 +1,72 @@
+
+
+
+#baobabImg {
+	width: 100%;
+}
+
+
+label {
+	color: blue;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	/* Make sure that padding and width stays in place */
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical
+		/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit], [type=reset] {
+	color: white;
+	margin-top: 5px;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit] {
+	background-color: #008000;
+}
+
+input[type=reset] {
+	background-color: #E9967A;
+	margin-left: 10px;
+}
+
+input[type=submit]:hover {
+	background-color: #00CED1;
+}
+
+input[type=reset]:hover {
+	background-color: #00CED1;
+}
+
+/* Add a background color and some padding around the form */
+form {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+#successMessage {
+	display: none;
+	color: #008000;
+}
+			
+.error{
+	display: none;
+	margin-left:20px;
+}
+			
+.error, .required{
+	color: #FF0000;
+}

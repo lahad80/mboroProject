@@ -1,0 +1,108 @@
+
+
+#postSubjectForm, #modifySubjectForm, .modifyCommentForm {
+	z-index:1;
+	display: none;
+	border: 6px solid salmon;
+	padding:1em;
+	width: 400px;
+	height:400px;
+	text-align: center;
+	background: #FFFFFF;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.modifyCommentForm{
+	height:300px;
+}
+
+.addCommentform textarea{
+	resize:none;
+	width:60%;
+}
+
+#connectedUserId {
+	display: none;
+}
+
+#subjectTitleAddSub , #subjectDescriptionAddSub, #subjectTitleModSub , #subjectDescriptionModSub, .commentDescMod  {
+	border: 1px solid #00008B;
+	margin-bottom: 3px;
+	width: 70%;
+}
+#subjectDescriptionAddSub, #subjectDescriptionModSub, .commentDescMod {
+	width: 90%;
+	height: 30%;
+	resize:none;
+}
+
+.commentDescMod {
+	height: 60%;
+}
+.modifySubjectButton, .deleteSubjectButton{
+	width:100px; 
+	margin-bottom:3px;
+}
+
+.submitBtn, .cancelBtn, .saveCommentButton, .saveModifiedComment {
+	background: teal;
+	color: #FFFFFF;
+	font-weight: 100;
+	font-size: 1.2em;
+	border: none;
+	width: 100px;
+	height: 7%;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.modifyCommentButton{
+	margin-bottom:3px;
+}
+
+
+.modifyCommentForm .saveModifiedComment, .modifyCommentForm .cancelBtn{
+	height:20px;
+	margin-bottom:3px;
+}
+
+
+#titleErrorAddSub, #descriptionErrorAddSub, #titleErrorModSub,
+	#descriptionErrorModSub {
+	display: none;
+	color: red;
+}
+
+#modifySubjectForm {
+	display: none
+}
+
+#space {
+	height: 300px;
+}
+
+#headTable {
+	background-color: #778899;
+	color: #FFFFFF;
+	font-weight:bold;
+	font-size:15px;
+	padding-top:3px;
+}
+
+#latestCommentHead, .commentCountBody, .userNameBody, #userNameHead, .buttonsBody{
+	text-align:center;
+}
+
+.panel-body {
+	margin-left: 20px;
+	width: 60%;
+}
+
+.alert-danger {
+	display: none;
+}
+
+

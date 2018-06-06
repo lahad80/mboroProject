@@ -1,0 +1,40 @@
+
+
+.navbar-inverse{
+	background-color:white;
+	margin-bottom:0px;
+}
+
+.navbar-nav{
+	font-size:16px;
+}
+
+#logo{
+	color:maroon;
+	font-weight:bold;
+	font-size:30px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#myNavbar{
+	padding-left:30%;
+}
+
+.theLi:hover{
+	background-color:#C0C0C0;
+}
+
+#iconButton{
+	background-color:gray;
+}
+
+#dialog-confirm {
+	display: none;
+}	
+
+#banner {
+	width: 100%;
+}	
+
+
+

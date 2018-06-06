@@ -1,0 +1,53 @@
+
+
+#logInForm {
+	border: 6px solid salmon;
+	padding: 2em;
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	background: #fff;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.submitBtn, .cancelBtn {
+	width: 5px;
+	display: inline-block;
+	background: teal;
+	color: #fff;
+	font-weight: 100;
+	font-size: 1.2em;
+	border: none;
+	height: 30px;
+}
+
+#logInForm input {
+	margin-bottom: 3px;
+	width: 180px;
+}
+
+#logInForm .submitBtn, #logInForm .cancelBtn {
+	width: 100px;
+}
+
+#forgetten, #signUpNewbie {
+	color: blue;
+	text-decoration: none;
+}
+
+.error {
+	color: red;
+}
+
+#emptyEmail, #emptyPassword{
+color:red;
+display:none;
+}
+
+#space {
+	height: 500px;
+}

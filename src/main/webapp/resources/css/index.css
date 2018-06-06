@@ -1,0 +1,31 @@
+
+
+
+
+#musicTitle {
+	color: blue;
+	width: 100%;
+	background-color: #C0C0C0;
+	
+}
+
+.track {
+	padding-bottom: 5px;
+}
+
+#player {
+	background-color: #DCDCDC;
+	border-radius: 20px;
+}
+
+#scrollingText {
+	width: 100%;
+}
+
+#myCarousel, #player, audio {
+	width: 100%;
+}
+
+.modal-body h3{
+	color:#000080;
+}
