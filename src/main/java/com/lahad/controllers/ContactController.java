@@ -38,16 +38,16 @@ public class ContactController {
 		String message = parameters.get("message");
 		
 		String to = "mboroforenglish@gmail.com";
-        String subject = "Message from contact form";
-        String text = "First Name: "+firstName+ "\nEmail: " +email+ "\nCountry: "+ country+ "\nMessage: " +message;
+      	        String subject = "Message from contact form";
+                String text = "First Name: "+firstName+ "\nEmail: " +email+ "\nCountry: "+ country+ "\nMessage: " +message;
     
-        SimpleMailMessage smm = new SimpleMailMessage();
-        smm.setTo(to);
-        smm.setSubject(subject);
-        smm.setText(text);
+               SimpleMailMessage smm = new SimpleMailMessage();
+               smm.setTo(to);
+               smm.setSubject(subject);
+               smm.setText(text);
         
-        mailSender.send(smm);
+               mailSender.send(smm);
       
-		return firstName;
+	       return firstName;
 	}
 }
